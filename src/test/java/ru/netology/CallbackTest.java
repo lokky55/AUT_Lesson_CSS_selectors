@@ -14,7 +14,7 @@ public class CallbackTest {
     @BeforeAll  // запускается один раз перед всеми тестами
     // делаем метод в котором устанавливаем свойства для драйвера (chrome driver из директории driver/win
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "driver/win/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "driver/win/chromedriver.exe");
     }
 
     @BeforeEach
